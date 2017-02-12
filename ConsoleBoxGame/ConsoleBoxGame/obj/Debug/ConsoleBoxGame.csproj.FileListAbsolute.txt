@@ -1,0 +1,16 @@
+c:\users\incro\onedrive\документы\visual studio 2015\Projects\ConsoleBoxGame\ConsoleBoxGame\bin\Debug\ConsoleBoxGame.exe.config
+c:\users\incro\onedrive\документы\visual studio 2015\Projects\ConsoleBoxGame\ConsoleBoxGame\bin\Debug\ConsoleBoxGame.exe
+c:\users\incro\onedrive\документы\visual studio 2015\Projects\ConsoleBoxGame\ConsoleBoxGame\bin\Debug\ConsoleBoxGame.pdb
+c:\users\incro\onedrive\документы\visual studio 2015\Projects\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.csprojResolveAssemblyReference.cache
+c:\users\incro\onedrive\документы\visual studio 2015\Projects\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.csproj.GenerateResource.Cache
+c:\users\incro\onedrive\документы\visual studio 2015\Projects\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.exe
+c:\users\incro\onedrive\документы\visual studio 2015\Projects\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.pdb
+C:\Users\incro\OneDrive\Документы\Visual Studio 2015\Projects\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.Properties.assets.resources
+C:\Users\mira\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleBoxGame\ConsoleBoxGame\bin\Debug\ConsoleBoxGame.exe.config
+C:\Users\mira\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.exe
+C:\Users\mira\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.pdb
+C:\Users\mira\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleBoxGame\ConsoleBoxGame\bin\Debug\ConsoleBoxGame.exe
+C:\Users\mira\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleBoxGame\ConsoleBoxGame\bin\Debug\ConsoleBoxGame.pdb
+C:\Users\mira\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.csprojResolveAssemblyReference.cache
+C:\Users\mira\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.Properties.assets.resources
+C:\Users\mira\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ConsoleBoxGame\ConsoleBoxGame\obj\Debug\ConsoleBoxGame.csproj.GenerateResource.Cache

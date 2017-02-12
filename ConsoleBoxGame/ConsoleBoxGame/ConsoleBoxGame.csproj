@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{930E1B3D-B3F4-4A3B-942E-8459342717B3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleBoxGame</RootNamespace>
+    <AssemblyName>ConsoleBoxGame</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\assets.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>assets.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpriteEngine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\assets.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>assets.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0_141b50_f28d739d_orig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Middle1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Middle2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Middle3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Middle4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Middle5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Middle6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Middle7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Middle8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Middle9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer14.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer15.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpritePlayer16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top23.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top14.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top15.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top17.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top18.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top19.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top20.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top21.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpriteP1Top22.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
